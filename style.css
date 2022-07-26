@@ -355,9 +355,8 @@ a:hover {
 /* FORMULÁRIO DE CONTATO */
 
 .forme{
-  padding: 80px;
-  padding-left: 80px;
-  padding-right: 80px;
+  ppadding-top: 80px;
+  padding-bottom: 80px;
   background-color: rgba(0, 0, 0, 0.4);
   
   backdrop-filter: blur( 13.5px );
