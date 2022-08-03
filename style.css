@@ -170,6 +170,30 @@ header .container .icons ion-icon{
     cursor: pointer;
 }
 
+.GaleriaDigital{
+    /*padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;*/
+    
+
+    width: 350px; 
+    margin-left: auto;
+    margin-right: auto; 
+
+    position: relative;
+    text-align: center;
+
+    background-color: rgba(0, 0, 0, 0.4);
+  
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+
+    border-top: 0px solid #111;
+    border-radius: 10px;
+  
+}
 
 /* GALERIA DE IMAGENS */
 
@@ -373,6 +397,9 @@ form{
 .txtform{
     font-family: 'Space Mono', monospace;
 }
+.name{
+    color: #111;
+}
 
 
 
@@ -457,7 +484,7 @@ h2::before {
 .form button {
   display: block;
   padding: 1rem;
-  background: #FC6D6D;
+  background: #83A29D;
   color: #fff;
   font: inherit;
   text-transform: uppercase;
@@ -470,5 +497,5 @@ h2::before {
 .form button:hover,
 .form button:focus {
   outline: none;
-  background: #09d;
+  background: #FC6D6D;
 }
